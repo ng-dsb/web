@@ -235,5 +235,9 @@ img{
 }
 
 .btn{
-	
+	z-index: 1;
+	width: 16%;
+	height: 8%;
+	left: 80%;
+	top: 0%;
 }
