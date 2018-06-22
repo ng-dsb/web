@@ -5,7 +5,6 @@
 .content{
 	position: absolute;
 	/*top: -100%;*/
-	
 }
 
 .page{
@@ -233,4 +232,8 @@ img{
 	left: 25%;
 	top: 30%;
 	display: none;
+}
+
+.btn{
+	
 }

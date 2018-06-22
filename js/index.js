@@ -76,7 +76,17 @@ $(function(){
     		$(".page4-Onbg").fadeIn("slow");
     		$(".page4-Run").fadeIn(1500);
     	});
-    	
+    })
+//  音乐播放和停止功能
+    $(".btn").click(function(){
+    	var music=$("#music")[0];
+    	if(music.paused){
+    		music.play();
+    		$(this).attr("src","img/musicBtn.png")
+    	}else{
+    		music.pause();
+    		$(this).attr("src","img/musicBtnOff.png")
+    	}
     })
 })
 
